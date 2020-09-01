@@ -3,3 +3,4 @@
 //
 
 #include "IBankTrasactions.h"
+IBankTrasactions::~IBankTrasactions() {}

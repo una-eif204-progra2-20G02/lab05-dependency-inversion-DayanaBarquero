@@ -4,10 +4,13 @@
 
 #ifndef MY_PROJECT_NAME_IBANKTRASACTIONS_H
 #define MY_PROJECT_NAME_IBANKTRASACTIONS_H
-
+#include <string>
 
 class IBankTrasactions {
+public:
+    virtual std::string sendPayment() const = 0;
 
+    virtual ~IBankTrasactions();
 };
 
 
